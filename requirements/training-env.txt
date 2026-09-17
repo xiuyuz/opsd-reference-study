@@ -1,0 +1,16 @@
+# Training environment: train_opsd.py and the teacher-forced profile scoring. Python 3.11 or 3.12.
+# Install torch first: flash-attn builds against an installed torch, so
+#   pip install torch==2.6.0 && pip install -r requirements/training-env.txt
+torch==2.6.0
+transformers==4.54.0
+peft==0.15.2
+accelerate==1.6.0
+safetensors==0.5.3
+flash-attn==2.8.3
+datasets==3.5.1
+math-verify==0.9.0
+matplotlib==3.11.1
+numpy==2.1.2
+psutil==7.2.2
+pandas==2.2.3
+pyarrow==20.0.0

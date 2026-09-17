@@ -1,0 +1,14 @@
+# The artifact bundle: checkpoints, rollouts, evaluations, profiles.
+artifacts/
+# Datasets and model weights are never committed here.
+*.jsonl
+*.parquet
+*.safetensors
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
